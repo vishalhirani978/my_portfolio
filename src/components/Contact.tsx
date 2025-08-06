@@ -73,17 +73,7 @@ const Contact = () => {
               })}
             </div>
             
-            <Button
-              asChild
-              size="lg"
-              className="bg-gradient-to-r from-[hsl(var(--ai-purple))] to-[hsl(var(--ai-blue))] 
-                         hover:shadow-2xl transition-all duration-300 px-8 py-3 text-lg"
-            >
-              <a href="mailto:vishalhirani2007@gmail.com" className="flex items-center gap-2">
-                <Mail className="w-5 h-5" />
-                Send Me an Email
-              </a>
-            </Button>
+            
           </Card>
         </div>
       </div>
